@@ -1,0 +1,55 @@
+body {
+  text-align: justify;
+  text-align: auto, 0;
+  /* background-color: rgb(188, 220, 247); */
+
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  /* transform: translate(-50%, -50%); */
+  /* text-align: justify; */
+}
+
+#fieldSet1 {
+  background-color: rgb(3, 147, 184);
+  color: rgb(255, 255, 255);
+  border: 4px solid black;
+  border-radius: 4px;
+  width: 1000px;
+}
+#fieldSet2 {
+  background-color: rgb(3, 147, 184);
+  color: rgb(255, 255, 255);
+  border: 4px solid black;
+  border-radius: 4px;
+  width: 1000px;
+  margin-top: 20px;
+}
+#fieldSet3 {
+  background-color: rgb(3, 147, 184);
+  color: rgb(255, 255, 255);
+  border: 4px solid black;
+  border-radius: 4px;
+  width: 1000px;
+  margin-top: 20px;
+}
+
+#radioBtn1Id {
+  color: rgb(2, 2, 2);
+  background-color: blueviolet;
+}
+p {
+  font-size: 1rem;
+}
+button {
+  width: 80px;
+  height: 30px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+#nextBtn1 {
+  width: 80px;
+  height: 30px;
+  margin-left: 350px;
+  margin-top: 20px;
+}

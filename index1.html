@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div id="mainDiv">
+      <fieldset id="fieldSet1">
+        <p style="font-size: larger; font-weight: bolder;">
+          1- What is the name of our country ?
+        </p>
+
+        <p>
+          <input
+            name="quesBtn"
+            type="radio"
+            id="radioBtn1Id"
+            onclick="correctAns1()"
+          />
+          Pakistan
+        </p>
+        <p>
+          <input
+            name="quesBtn"
+            type="radio"
+            id="radioBtn2Id"
+            onclick="unCorrectAns1()"
+          />
+          Afghanistan
+        </p>
+        <p>
+          <input
+            name="quesBtn"
+            type="radio"
+            id="radioBtn3Id"
+            onclick="unCorrectAns1()"
+          />
+          Iran
+        </p>
+        <p>
+          <input
+            name="quesBtn"
+            type="radio"
+            id="radioBtn4Id"
+            onclick="unCorrectAns1()"
+          />
+          India
+        </p>
+      </fieldset>
+
+      <button id="submitBtnId1" type="submit" onclick="counter1()">
+        Submit
+      </button>
+      <button id="nextBtn1"></button>
+
+      <fieldset id="fieldSet2">
+        <p style="font-size: larger; font-weight: bolder;">
+          2- What is the name of our city ?
+        </p>
+
+        <p>
+          <input
+            name="quesBtn"
+            type="radio"
+            id="radioBtn5Id"
+            onclick="correctAns2()"
+          />
+          karachi
+        </p>
+        <p>
+          <input
+            name="quesBtn"
+            type="radio"
+            id="radioBtn6Id"
+            onclick="unCorrectAns2()"
+          />
+          Islamabad
+        </p>
+        <p>
+          <input
+            name="quesBtn"
+            type="radio"
+            id="radioBtn7Id"
+            onclick="unCorrectAns2()"
+          />
+          Lahore
+        </p>
+        <p>
+          <input
+            name="quesBtn"
+            type="radio"
+            id="radioBtn8Id"
+            onclick="unCorrectAns2()"
+          />
+          Faisalabad
+        </p>
+      </fieldset>
+
+      <button type="submit" id="submitBtnId2" onclick="counter2()">
+        Submit
+      </button>
+      <button id="nextBtn2"></button>
+
+      <fieldset id="fieldSet3">
+        <p style="font-size: larger; font-weight: bolder;">
+          3- What is the name of your continent ?
+        </p>
+        <p>
+          <input
+            name="quesBtn"
+            type="radio"
+            id="radioBtn9Id"
+            onclick="unCorrectAns3()"
+          />
+          Australia
+        </p>
+        <p>
+          <input
+            name="quesBtn"
+            type="radio"
+            id="radioBtn10Id"
+            onclick="unCorrectAns3()"
+          />
+          Africa
+        </p>
+        <p>
+          <input
+            name="quesBtn"
+            type="radio"
+            id="radioBtn11Id"
+            onclick="correctAns3()"
+          />
+          Asia
+        </p>
+        <p>
+          <input
+            name="quesBtn"
+            type="radio"
+            id="radioBtn12Id"
+            onclick="unCorrectAns3()"
+          />
+          Antartica
+        </p>
+      </fieldset>
+      <button type="submit" id="submitBtnId3" onclick="counter3()">NEXT</button>
+      <button id="nextBtn3"></button>
+    </div>
+  </body>
+  <script src="app1.js"></script>
+</html>
